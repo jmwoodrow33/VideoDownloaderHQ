@@ -13,27 +13,32 @@ This is a simple Python application with a graphical interface that allows you t
 
 - Python 3.8 or later
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- [ffmpeg](https://ffmpeg.org/download.html) (must be in system PATH)
+- [ffmpeg](https://www.gyan.dev/ffmpeg/builds/) (must be in system PATH)
 
 ## Installation
 
 1. Clone this repository
-
+```sh
 git clone https://github.com/jmwoodrow33/VideoDownloaderHQ.git
+```
+```sh
 cd VideoDownloaderHQ
-
+```
 2. Install dependencies
-   
+```sh
 pip install yt-dlp
-
-4. Install ffmpeg and add it to your system PATH
-
+```
+4. Download and extract ffmpeg to the root folder then add it to your system PATH variables
+```sh
+https://www.gyan.dev/ffmpeg/builds/
+'ffmpeg-7.0.2-essentials_build.zip'
+```
 ## Usage
 
 Run the script:
-
+```sh
 python ytDownloader.pyw
-
+```
 Alternatively you can right click this file in the file explorer and create a desktop shortcut to run the script.
 
 Paste the YouTube URL into the input field and click "Download."  
